@@ -29,7 +29,7 @@ aside#sidebar div {
 
 aside#sidebar header {
   font-family: "bello-pro",sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 60px;
   color: #c0000a;
 }
@@ -131,7 +131,7 @@ article div.content, article footer {
 article footer {
   width: 600px;
   font-family: "museo-sans",sans-serif;
-  font-weight: 100;
+  font-weight: 500;
   font-size: 12px;
 }
 
@@ -143,36 +143,9 @@ article footer {
 
 .content footer > .social {
   float: right;
-  background-image: url(outlets.png);
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-}
-
-.notes, .comments {
-  float: right;
   font-family: "museo-sans",sans-serif;
   font-size: 12px;
-  display: block;
-  padding: 5px;
-}
-
-.notes a, .comments a {
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  color: #e2e2e2;
-}
-
-.notes a {
-  background-image: url("icons/heart.png");
-}
-
-.comments a {
-  background-image: url("icons/speech_bubble.png");
-}
-
-.notes a:hover, .comments a:hover {
-  color: #16A9EF;  
-  text-decoration: none;
+  color: #16A9EF;
+  border-right: 4px solid #ff7f00;
+  padding-right: 10px;
 }
